@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Department of Library and Information Science</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Start Here  -->
+        <header>
+            <div class="img">
+                <a href="#top"><img src="image/banner.png" alt="banner"></a>
+            </div>
+            <div class="search-box">
+
+                <input type="search" id="searchInput" placeholder="Search here...">
+                <Button onclick="searchPage()">Search</Button>
+
+            </div>
+        </header>
+        <nav>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-btn">
+               Menu <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+
+            <label for="sidebar-active" id="overlay"></label>
+            
+            <div class="links-container">
+               <label for="sidebar-active" class="close-sidebar-btn">
+                   Close <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+               </label>
+
+               <a href="#" class="home-link">
+                  Home        
+               </a>                     
+               <div class="submenu">
+                <a href="#">Library <i class="fa-solid fa-caret-down" style="margin-left: .5rem;"></i></a>
+                         <div class="dropdown">
+                             <a href="#">Timing</a>
+                             <a href="#">Staff</a>
+                             <a href="#">OPAC</a>
+                         </div>
+                    </div>        
+               <a href="#">
+                   Faculty
+               </a>
+               <div class="submenu">
+               <a href="#">Courses <i class="fa-solid fa-caret-down" style="margin-left: .5rem;"></i></a>
+                        <div class="dropdown">
+                            <a href="#">BLIS</a>
+                            <a href="#">MLIS</a>
+                            <a href="#">Phd</a>
+                        </div>
+                   </div>             
+               <a href="#">
+                   About Us
+               </a>          
+               <a href="#">
+                   Contact Us
+               </a>                
+           </div>  
+        </nav>
+
+        <main id="content">
+            <!-- Scrolling Text Section  -->
+            <section class="scroll-text-cont" id="top">
+                <div class="scroll-text">
+                    <div class="l-t-r">
+                        <p>Welcome to Department of Library and Information Science</p>
+                        <p>Welcome to Department of Library and Information Science</p>
+                        <p>Welcome to Department of Library and Information Science</p>
+                        <p>Welcome to Department of Library and Information Science</p>
+                        <p>Welcome to Department of Library and Information Science</p>
+                        <p>Welcome to Department of Library and Information Science</p>
+                        <p>Welcome to Department of Library and Information Science</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Image and Intro Text Section  -->
+            <section id="intro">
+                <div class="dept_img">
+                    <img src="image/dept_img-rs.jpg" alt="dept_img">
+                </div>
+                <div class="text_1">
+                    <h3>Department of Library and Information Science</h3>
+                    <p> <em>The Department of Library and Information Science</em> (DLIS) in India has its roots in the
+                        pioneering work of <strong>Dr. S.R. Ranganathan</strong>, known as the "Father of Library
+                        Science in India." He introduced the Five Laws of Library Science and the Colon Classification
+                        system, shaping modern librarianship. <strong>The first formal library science course began in
+                            1911 at Baroda, followed by the University of Madras in 1931 under Ranganathan's
+                            guidance</strong>. Today, DLIS programs across India continue to advance research, digital
+                        librarianship, and information management preserving his
+                        legacy.</p>
+                </div>
+            </section>
+            <!-- Image Gallery Section  -->
+            <h3 id="gallery-text">Gallery </h3>
+            <hr>
+            <section class="scroll-img-cont" id="top">
+                <div class="scroll-img">
+                    <div class="l-t-r-img">
+                        <img src="image/Image-slide/img-slide-1.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-2.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-3.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-4.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-5.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-6.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-1.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-2.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-3.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-4.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-5.jpg" alt="Img-Not-Load">
+                        <img src="image/Image-slide/img-slide-6.jpg" alt="Img-Not-Load">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!-- Faculty Cards Section  -->
+            <section id="facutly">
+
+                <h2>Faculty</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h5>Prof. RK Bhatt</h5>
+                        <img src="image/Faculty-img/1 images.png" alt="Prof. RK Bhatt">
+                        <p id="cardp">Head of the Department</p>
+                        <a href="https://people.samarth.edu.in/index.php/profile/user/index/DU/ngs"><button>Samarth
+                                Profile</button></a>
+                    </div>
+                    <div class="card">
+                        <h5>Prof. PK Walia</h5>
+                        <img src="image/Faculty-img/2 images.png" alt="Prof. PK Walia">
+                        <p>Sr. Prof.</p>
+                        <a href="https://people.samarth.edu.in/index.php/profile/user/index/DU/ngf"><button>Samarth
+                                Profile</button></a>
+                    </div>
+                    <div class="card">
+                        <h5>Prof. KP Singh</h5>
+                        <img src="image/Faculty-img/3 images.png" alt="Prof. KP Singh">
+                        <p>Sr. Prof.</p>
+                        <a href="https://people.samarth.edu.in/index.php/profile/user/index/DU/ngw"><button>Samarth
+                                Profile</button></a>
+                    </div>
+                    <div class="card">
+                        <h6>Prof. M Madhusudhan</h6>
+                        <img src="image/Faculty-img/4 images.png" alt="Prof. M Madhusudhan">
+                        <p>Professor</p>
+                        <a href=""><button>Samarth Profile</button></a>
+                    </div>
+                    <div class="card">
+                        <h5>Prof. Meera</h5>
+                        <img src="image/Faculty-img/5 images.png" alt="Prof. Meera">
+                        <p>Professor</p>
+                        <a href=""><button>Samarth Profile</button></a>
+                    </div>
+                    <div class="card">
+                        <h5>Prof. Manish Kumar</h5>
+                        <img src="image/Faculty-img/6 images.png" alt="Prof. Manish Kumar">
+                        <p>Professor</p>
+                        <a href=""><button>Samarth Profile</button></a>
+                    </div>
+                    <div class="card">
+                        <h5>Prof. Pinki</h5>
+                        <img src="image/Faculty-img/7 images.png" alt="Prof. Pinki">
+                        <p>Professor</p>
+                        <a href=""><button>Samarth Profile</button></a>
+                    </div>
+                    <div class="card">
+                        <h5>Prof. Kimi</h5>
+                        <img src="image/Faculty-img/8 images.png" alt="Prof. Kimi">
+                        <p>Professor</p>
+                        <a href=""><button>Samarth Profile</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <h2>Contact Us</h2>
+            <!-- Contact Us Section  -->
+            <section class="contact-us" id="contact-us">
+                <!-- Form Start Here  -->
+                <form id="contactForm">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name" class="lesswidth">Name</label>
+
+                    <input type="email" id="email" name="email" required>
+                    <label for="email" class="lesswidth">E-mail</label>
+
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="phone">Phone No.</label>
+
+                    <textarea id="message" name="message" style="height: 150px;"></textarea>
+                    <label for="message"
+                        style="position: relative; bottom: 176px; width: 11.5%; max-width: 200px;">Message</label>
+
+                    <button type="submit" onclick="formSubmit()">Submit</button>
+                </form>
+                <!-- Information -->
+                <div class="contact-info">
+                    <!-- Map Section -->
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.988126583861!2d77.20532397485192!3d28.690001781469753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd92c234e2c1%3A0xd319c507c630c8a4!2sDepartment%20of%20Library%20and%20Information%20Science!5e0!3m2!1sen!2ssg!4v1740299643913!5m2!1sen!2ssg"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <!-- Other Information  -->
+                    <div class="info">
+                        <div class="address">
+                            <h4>Address</h4>
+                            <Address>
+                                Second Floor, M6R5+257 Tutorial Buliding, Guru Tegh Bahadur Rd, Art Faculty, University
+                                Enclave, Delhi, 110007, India
+                            </Address>
+                        </div>
+                        <div class="otherinfo">
+                            <h4>Contact Info</h4>
+                            <span>Telefax : 011-27666656(O)</span>
+                            <span>Email : office@libinfosci.du.ac.in</span>
+                            <span>Website: http://dlis.du.ac.in</span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Start Here -->
+        <footer>
+            <ul>
+                <li><a href="#">Home
+                </li></a>
+                <li><a href="#">About Us
+                </li></a>
+                <li><a href="#">Services
+                </li></a>
+                <li><a href="#">Products
+                </li></a>
+                <li><a href="#">Contact Us
+                </li></a>
+            </ul>
+            <hr style="margin: 0;">
+            <p>&copy All Rights Reserved | Design and Developed by the Department of Library and Information Science |
+                University of Delhi </p>
+
+        </footer>
+    </div>
+
+    <script>
+      //  function showSidebar() {
+      //      const sidebar = document.querySelector('.sidebar')
+      //      sidebar.style.display = 'flex'
+      //      console.log('menu worked');
+      //  }
+
+      //  function hideSidebar() {
+      //      const sidebar = document.querySelector('.sidebar')
+      //      sidebar.style.display = 'none'
+      // }
+
+        // Form Handling
+        // const form = document.getElementById('form');
+
+        // form.addEventListener('submit', (e) => {
+        //   e.preventDefault();
+        // //   new FormData(form);
+
+        //   const fd = new FormData(form);
+        //   console.log (fd); 
+        // });
+
+        // const form = document.querySelector("form");
+
+        // form.addEventListener("submit", (e) => {
+        //   e.preventDefault(); // Prevent form from submitting normally
+        //   new FormData(form);
+        //   const fd = new FormData(form); 
+        //     console.log('fd')
+
+        // });
+        function formSubmit() {
+            alert("Form Is Submitted Succesfully")
+            console.log('Form has submitted at backend successfully. Here are the detailes:-')
+        }
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault(); // Prevent form from actually submitting
+            const fd = new FormData(this);
+            // Logging form data properly
+            console.log("Form Data:");
+            for (let [key, value] of fd.entries()) {
+                console.log(`${key}: ${value}`);
+            }
+        });
+
+        
+        // Form Data Function 
+        function removeHighlights() {
+            let elements = document.querySelectorAll(".highlight");
+            elements.forEach(el => {
+                el.replaceWith(document.createTextNode(el.textContent));
+            });
+        }
+        function removeHighlights() {
+            let highlighted = document.querySelectorAll(".highlight");
+            highlighted.forEach(span => {
+                span.outerHTML = span.innerHTML; // Remove highlight but keep text
+            });
+        }
+        function highlightText(node, word) {
+            let regex = new RegExp(`(${word})`, "gi");
+            node.innerHTML = node.textContent.replace(regex, `<span class="highlight">$1</span>`);
+        }
+        function searchPage() {
+            removeHighlights(); // Remove previous highlights
+
+            let input = document.getElementById("searchInput").value.trim();
+            if (input === "") return; // Stop if input is empty
+
+            let contentArea = document.getElementById("content");
+            let nodes = contentArea.querySelectorAll("p, h1, h2, h3, h4, h5, h6 div, li, ul, span, input, lable");
+
+            let firstMatch = null;
+            nodes.forEach(node => {
+                if (node.textContent.toLowerCase().includes(input.toLowerCase())) {
+                    highlightText(node, input);
+                    if (!firstMatch) firstMatch = node; // Save first match for scrolling
+                }
+            });
+            if (firstMatch) {
+                firstMatch.scrollIntoView({ behavior: "smooth", block: "center" });
+            } else {
+                alert("No matches found!");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
