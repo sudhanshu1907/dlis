@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mlis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MLIS</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Start Here  -->
+        <header>
+            <div class="img">
+                <a href="#top"><img src="../image/banner.png" alt="banner"></a>
+            </div>
+            <div class="search-box">
+
+                <input type="search" id="searchInput" placeholder="Search here...">
+                <Button onclick="searchPage()">Search</Button>
+
+            </div>
+        </header>
+        
+        <!-- Nav Bar Starts Here  -->
+        <nav>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-btn">
+                Menu <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#e8eaed">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </label>
+
+            <label for="sidebar-active" id="overlay"></label>
+
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-btn">
+                    Close <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#e8eaed">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </label>
+
+                <a href="index.html" class="home-link">
+                    Home
+                </a>
+                <div class="submenu">
+                    <a href="#">Library <i class="fa-solid fa-caret-down" style="margin-left: .5rem;"></i></a>
+                    <div class="dropdown">
+                        <a href="departmentLibrary.html">Department Library</a>
+                        <a href="eLibrary.html">DU e-Library</a>
+                        <a href="http://dulsopac.du.ac.in/Catalogue.aspx">OPAC</a>
+                    </div>
+                </div>
+
+                <div class="submenu">
+                    <a href="#">Facutly <i class="fa-solid fa-caret-down" style="margin-left: .5rem;"></i></a>
+                    <div class="dropdown">
+                        <a href="currentFaculty.html">Current Faculty</a>
+                        <a href="formalFaculty.html">Former Faculty</a>
+                        <a href="officeStaff.html">Offince and Library Staff</a>
+                    </div>
+                </div>
+
+                <a href="podcast.html">
+                    Podcast
+                </a>
+
+                <div class="submenu">
+                    <a href="#">Admission <i class="fa-solid fa-caret-down" style="margin-left: .5rem;"></i></a>
+                    <div class="dropdown">
+                        <a href="blis.html">BLIS</a>
+                        <a href="mlis.html">MLIS</a>
+                        <a href="phd.html">Phd</a>
+                    </div>
+                </div>                
+        
+                <a href="student.html">
+                    Student
+                </a>
+                <div class="submenu">
+                    <a href="#">Facilites <i class="fa-solid fa-caret-down" style="margin-left: .5rem;"></i></a>
+                    <div class="dropdown">
+                        <a href="computerLab.html">Computer Lab</a>
+                        <a href="semminarHall.html">Semminar Hall</a>
+                        <a href="medHostel.html">Med & Hostel</a>
+                    </div>
+                </div>
+                <a href="jlis.html">
+                    JLIS
+                </a>
+                <div class="submenu">
+                    <a href="#">Downloads <i class="fa-solid fa-caret-down" style="margin-left: .5rem;"></i></a>
+                    <div class="dropdown">
+                        <a href="projectReport.html">Guidelines for Project Reports</a>
+                        <a href="pyq.html">PYQ's</a>
+                    </div>
+                </div>
+                <a href="https://dlisblogs.blogspot.com/" target="_blank">
+                    Blogs
+                </a>
+                
+                <a href="about.html">
+                    AboutUs
+                </a>
+
+                <a href="contact.html">
+                    ContactUs
+                </a>
+            </div>
+        </nav>
+
+        <main id="content">
+            <h2>Courses@DLIS</h2>
+            <section class="courses">        
+                            <section class="mlis">
+                    <strong class="maintext">Masters of Library and Information Sciene (M.L.I.Sc.)</strong>
+                    <div class="obj">
+                        <h3>Programme Objectives: </h3>
+                        <ul>
+                            <li>To impart the students a thorough understanding of patterns of knowledge development and its organization. </li>
+
+                            <li>To train the students in the advanced skills of information and knowledge, gathering, processing, organization and retrieval. </li>
+                            
+                            <li>To train the students in information/ knowledge analysis, repackaging and marketing. </li>
+                            
+                            <li>To provide the students with a thorough understanding of Information Technology applications in information environment, including networks and communication systems. </li>
+                            
+                            <li>To train the students in the analysis, planning and management of the systems of library and information centres. </li>
+                            
+                            <li>To provide an understanding of research methods and activities of research organizations. </li>
+                        </ul>
+                    </div>
+
+                    <p>M.L.I.Sc. is one-year full-time course divided into two semesters leading to the degree of
+                        Masters of Library and Information Science (MLISc.)</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Semester</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Part-I</td>
+                                <td>July-December</td>
+                                <td>Semester-I</td>
+                            </tr>
+                            <tr>
+                                <td>Part-II</td>
+                                <td>January-June</td>
+                                <td>Semester-II</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                   <strong>Duration:</strong> 
+                   <p>One Year (full time) Course of Two Semesters</p>
+
+                    <strong> Intake:</strong>
+                    <p>Fifty-eight (58) seats (including candidates belonging to Scheduled Castes, Schedules Tribes and OBC candidates) are divided equally under Category-I and Category-II. Admission to Category-I: Through Entrance Test and Category-II: Merit-based. However, the intake of foreign students (Maximum 4) will be in addition to the prescribed intake of 58 seats.</p>
+
+                    <strong>Break-up of a Total of 58 Seats:</strong>
+                    <ul>
+                        <li> Category-I: Entrance Based Seat Distribution (Total Seats - 29) arrowUR (11)
+                            <ul>
+                                <li>OBC (08)</li>
+                                <li> SC (05)</li>
+                                <li> ST (02) </li>
+                                <li>EWS (03)</li>
+                            </ul>
+                        </li>
+
+                        <li> Category-II: Merit-Based Seat Distribution (Total Seats - 29)  arrowUR (12)
+                            <ul>
+                                <li>OBC (08)</li>
+                                <li> SC (04)</li>
+                                <li> ST (02) </li>
+                                <li>EWS (03)</li>
+                            </ul>
+                        </li>
+                
+                    </ul>      
+                    <strong>Note:  </strong> <p>The number of seats may vary. Supernumerary seats will be as per University of Delhi norms. Candidates must visit the respective Department office/website for the updated fee structure.</p>
+                    
+                    <strong>Deputed Candidates:</strong>
+                    <p>A maximum of 2 seats will be set apart for deputed candidates, out of whom one will be for candidates deputed by Delhi University Library System and another for candidates deputed by the College/Institution maintained by or affiliated to the University of Delhi. Candidates to be considered under this category must fulfil the minimum admission requirements. In addition, they should be: (i) working as Semi-Professional Assistants/Senior Library Assistants for at least three years, and (ii) granted study leave with total emoluments or deputation allowances for the duration of the course of the study. The criteria for selection in this category will also be in the order of merit as laid down for other candidates. </p>
+
+                    <strong>Seats for Foreign Students and Procedure for their Admission :</strong>
+                    <p>The Admission Committee on individual merit will consider international students' applications, and a maximum of 4 seats will be offered to the international students. These seats will be in addition to the prescribed intake of 58 seats. International students seeking admission to the M.L.I.Sc. Course in the Department of Library and Information Science must apply directly to the Foreign Students' Advisor, Foreign Students' Registry, Room No. 11, First Floor, Conference Centre, University of Delhi, Delhi-110007. They will arrange for their admission to the Department. International students stationed in India who have passed the last examination from the Board/University in India may seek admission based on merit, and other students may seek admission after obtaining a No Objection Certificate from the Foreign Students' Advisor.
+                    </p>
+
+                    <strong>Program Specific Eligibility: </strong>
+                    <ul>
+                        <li> 1A: B.L.I.Sc. from a recognized University.</li>
+                        <li>1B: B.L.I.Sc. from the University of Delhi</li>
+                    </ul>
+
+                    <strong>Procedure for Admission: </strong>
+                    <p>For admission to the Master of Library & Information Science (M.L.I.Sc.), the candidates must fulfil the Program Specific Eligibility and appear in the respective CUET paper. Refer to www.cuet.nta.nic.in for the syllabus of the <strong style="font-size: 1rem;">CUET PaperCode (COQP13)</strong>.</p>
+
+                   <div class="dwn">
+                       <p>Please refer to Admission Brochure for more details</p> <a target="_blank" href="public/Admission Brochure.pdf">
+                        Click Here for Download</a>
+                   </div>
+
+
+
+
+
+                    <div class="cta-read-more">
+                        <div class="none"></div>
+                        <button onclick="readMore()">Read More</button>
+                    </div>
+
+                </section>
+
+            </section>
+        </main>
+
+        <!-- Footer Start Here -->
+        <footer>
+            <div class="wrapperFooter">
+                <ul>
+                    <h5>Useful Links:</h5>
+                    <li><a href="https://www.du.ac.in/">DU Official Site
+                </li></a>
+                <li><a href="https://crl.du.ac.in/">Central Reference Library
+                </li></a>
+                <li><a href="https://duelibrary.in/#/home">DU e-Library
+                </li></a>
+                <li><a href="https://slc.uod.ac.in/index.php/site/login">Student Portal
+                </li></a>
+                <li><a href="https://fee.du.ac.in/index.php/site/login">Student Fee Portal
+                </li></a>
+            </ul>
+            <div class="video">
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/WvrdmaEC0Ek" title="Department of Library and Information Science, University of Delhi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+            <hr style="margin: 0;">
+            <p>&copy All Rights Reserved | Design and Developed by the Department of Library and Information Science |
+                University of Delhi </p>
+
+        </footer>
+    </div>
+
+    <script>
+        function readMore() {
+            const mlis = document.querySelector('.mlis');
+            const none = document.querySelector('.none');
+            if (mlis) {
+                mlis.style.height = "100%";
+                console.log("cta-btn Works");
+            }
+            else {
+                console.log("Missing BLIS Class");
+            }
+
+            if (none) {
+                none.style.display = "none";
+                console.log("none is hidden");
+            }
+            else {
+                console.log("none is not hidden");
+            }
+        }
+        function readMore2() {
+            const mlis = document.querySelector('.mlis');
+            const none2 = document.querySelector('.none2');
+            if (mlis) {
+                mlis.style.height = "100%";
+                console.log("cta-btn Works");
+            }
+            else {
+                console.log("Missing BLIS Class");
+            }
+
+            if (none2) {
+                none2.style.display = "none";
+                console.log("none is hidden");
+            }
+            else {
+                console.log("none is not hidden");
+            }
+        }
+
+        function removeHighlights() {
+            let elements = document.querySelectorAll(".highlight");
+            elements.forEach(el => {
+                el.replaceWith(document.createTextNode(el.textContent));
+            });
+        }
+        function removeHighlights() {
+            let highlighted = document.querySelectorAll(".highlight");
+            highlighted.forEach(span => {
+                span.outerHTML = span.innerHTML; // Remove highlight but keep text
+            });
+        }
+        function highlightText(node, word) {
+            let regex = new RegExp(`(${word})`, "gi");
+            node.innerHTML = node.textContent.replace(regex, `<span class="highlight">$1</span>`);
+        }
+        function searchPage() {
+            removeHighlights(); // Remove previous highlights
+
+            let input = document.getElementById("searchInput").value.trim();
+            if (input === "") return; // Stop if input is empty
+
+            let contentArea = document.getElementById("content");
+            let nodes = contentArea.querySelectorAll("p, h1, h2, h3, h4, h5, h6 div, li, ul, span, input, lable, strong, ul, li");
+
+            let firstMatch = null;
+            nodes.forEach(node => {
+                if (node.textContent.toLowerCase().includes(input.toLowerCase())) {
+                    highlightText(node, input);
+                    if (!firstMatch) firstMatch = node; // Save first match for scrolling
+                }
+            });
+            if (firstMatch) {
+                firstMatch.scrollIntoView({ behavior: "smooth", block: "center" });
+            } else {
+                alert("No matches found!");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
